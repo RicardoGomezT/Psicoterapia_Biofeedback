@@ -2,7 +2,7 @@
 Proyecto de interfaz para la integración entre equipo biomedico de bajo costo con interfaz amigable para profesional de la salud en la escuela de salud mental de la Universidad Industrial de Santander UIS
 
 
-# Interfaz gráfica señales biomedicas adquiridas nivel 1
+# Interfaz gráfica señales biomedicas adquiridas
 - Electrocardiografía
 - Variabilidad de la frecuencia cardiaca
 - Respuesta Galvanica de la piel
@@ -13,14 +13,14 @@ Proyecto de interfaz para la integración entre equipo biomedico de bajo costo c
 
 ![alt text](image1.jpg)
 
-# Interfaz gráfica interactividad profesional de la salud nivel 1
+# Interfaz gráfica interactividad profesional de la salud
 
 - Base de datos en MySQLite
 - Framework Django
 - Algoritmos biomedicos en Python
 
 
-#### Sitio Administrativo nivel 4
+#### Sitio Administrativo
 
 ![alt text](image2.jpg)
 
