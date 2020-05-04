@@ -11,7 +11,7 @@ Proyecto de interfaz para la integración entre equipo biomedico de bajo costo c
 - Electromiografía
 - Envolvente EMG
 
-![alt text](/center-image1.jpg) 
+![my image](image1.jpg#right)
 
 # Interfaz gráfica interactividad profesional de la salud
 
@@ -22,14 +22,14 @@ Proyecto de interfaz para la integración entre equipo biomedico de bajo costo c
 
 #### Sitio Administrativo
 
-![image alt ><](/center-image2.jpg)
+![my image](image2.jpg#right)
 
 
 #### Consulta de pacientes nivel 4
 
-![alt text](/center-imagen3.jpg)
+![my image](imagen3.jpg#right)
 
 
 #### Formulario paciente nuevo nivel 4
 
-![my image](imagen4.jpg#center)
+![my image](imagen4.jpg#right)
