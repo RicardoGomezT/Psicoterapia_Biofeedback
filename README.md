@@ -32,4 +32,4 @@ Proyecto de interfaz para la integración entre equipo biomedico de bajo costo c
 
 #### Formulario paciente nuevo nivel 4
 
-![my image](imagen4.jpg#right)
+![my image](imagen4.jpg#right){: .floatright}
