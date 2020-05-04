@@ -22,7 +22,7 @@ Proyecto de interfaz para la integración entre equipo biomedico de bajo costo c
 
 #### Sitio Administrativo
 
-![alt text](/center-image2.jpg)
+![image alt ><](/center-image2.jpg)
 
 
 #### Consulta de pacientes nivel 4
