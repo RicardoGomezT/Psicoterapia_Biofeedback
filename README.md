@@ -3,3 +3,11 @@ Proyecto de interfaz para la integración entre equipo biomedico de bajo costo c
 
 
 RICARDO ANDRÉS GÓMEZ TORRES
+
+
+# Encabezado nivel 1
+## Encabezado nivel 2
+### Encabezado nivel 3
+#### Encabezado nivel 4
+##### Encabezado nivel 5
+###### Encabezado nivel 6
