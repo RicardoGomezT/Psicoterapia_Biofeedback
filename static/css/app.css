@@ -1,0 +1,66 @@
+
+
+
+#data{
+	float: right;
+    background-color: powderblue;
+    text-align: center;
+    width:  300px;
+}
+
+#hora{
+	height: 150px;
+    margin: 0 0 0 0;
+    background-color: powderblue;
+    font-size: 30px;
+}
+
+#temperatura{
+	height: 200px;
+    background-color: powderblue;
+    margin: 0 0 0 0;
+    font-size: 100px;
+}
+
+#fc{
+	height: 200px;
+    margin: 0 0 0 0;
+    background-color: powderblue;
+    font-size: 100px;
+}
+
+#reshum{
+	height: 200px;
+    margin: 0 0 0 0;
+    background-color: powderblue;
+    font-size: 100px;
+}
+
+
+
+
+
+.subtitulo-hora{
+	height: 50px;
+    font-size: 25px;
+	background-color: rgb(97, 97, 255);
+	margin: 0 0 0 0;
+	padding-top: 15px;
+}
+
+
+.subtitulo{
+	height: 50px;
+    font-size: 25px;
+	background-color: rgb(97, 97, 255);
+	margin: 0 0 0 0;
+	padding-top: 15px;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}

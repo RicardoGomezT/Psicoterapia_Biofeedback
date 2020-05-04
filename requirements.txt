@@ -1,0 +1,6 @@
+# sudo apt-get install python3-tk
+# sudo apt-get remove 'python3.*'
+# export PATH="/opt/miniconda3/bin:$PATH"
+
+django==1.11
+bootstrap-admin

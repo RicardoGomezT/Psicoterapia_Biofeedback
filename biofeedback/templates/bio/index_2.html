@@ -1,0 +1,79 @@
+
+
+{% load static %}
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{% block title %}Default Title{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/app.css' %}">
+    {% block stylesheet %}{% endblock %}
+  </head>
+  <body>
+    <header>
+    </header>
+    <main>
+      <div id = "data">     
+          <div class = valor>
+            <p class = subtitulo-hora>hora</p>
+            <p id="hora">Hora.</p>
+            <button id = "close">Cerrar</button>
+          </div> 
+
+          <div class = valor>
+            <p class = subtitulo>Temperatura [ºC]</p>
+            <p id="temperatura">0 ºC</p>
+            
+            <div class = valor>
+              <p class = subtitulo>FC [lpm]</p>
+              <p id="fc">000</p>
+            </div> 
+
+            <div class = valor>
+              <p class = subtitulo>Resistencia H. [kΩ]</p>
+              <p id="reshum">0 Ω</p>
+            </div> 
+      </div>
+          </div> 
+    </main>
+    <footer>
+    </footer>
+    <script src="{% static 'js/jquery-3.1.0.min.js' %}"></script>
+      <script>
+
+        window.setInterval(function () {
+            var serial = "givemeSerial";
+            $.ajax({
+              url: 'serial',
+              data: {
+                'serial': serial
+              },
+              dataType: 'json',
+              success: function (data) {
+                //alert(data['serial']);
+                $("#temperatura").text(data['serial_1']);
+                $("#fc").text(data['serial_2']);
+                $("#reshum").text(data['serial_3']);
+                var now = new Date();
+                var outStr = now.getHours() + ':' + now.getMinutes() + ':' + now.getSeconds();
+                $("#hora").text(outStr);
+                if (data['change']) {
+                  $("#hora").addClass("green");
+                }
+                else {
+                  $("#hora").addClass("red");
+                }
+              }
+            });
+          }, 500);
+    $('#close').click(function() {
+        alert("se ha finalizado la sesion");
+        window.location.href = '/admin/biofeedback/terapia/';
+        return false;
+    });
+
+
+  </script>
+  </body>
+</html>
