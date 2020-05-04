@@ -27,7 +27,7 @@ Proyecto de interfaz para la integración entre equipo biomedico de bajo costo c
 
 #### Consulta de pacientes nivel 4
 
-![alt text](image3.jpg)
+![alt text](imagen3.jpg)
 
 
 #### Formulario paciente nuevo nivel 4
