@@ -2,12 +2,21 @@
 Proyecto de interfaz para la integración entre equipo biomedico de bajo costo con interfaz amigable para profesional de la salud en la escuela de salud mental de la Universidad Industrial de Santander UIS
 
 
-RICARDO ANDRÉS GÓMEZ TORRES
+# Interfaz gráfica señales biomedicas adquiridas nivel 1
+- Electrocardiografía
+- Variabilidad de la frecuencia cardiaca
+- Respuesta Galvanica de la piel
+- Resistencia de la piel
+- Temperatura corporal
+- Electromiografía
+- Envolvente EMG
 
+![alt text](image1.jpg)
 
-# Encabezado nivel 1
-## Encabezado nivel 2
-### Encabezado nivel 3
-#### Encabezado nivel 4
-##### Encabezado nivel 5
-###### Encabezado nivel 6
+# Interfaz gráfica interactividad profesional de la salud nivel 1
+
+- Base de datos en MySQLite
+- Framework Django
+- Algoritmos biomedicos en Python
+
+![alt text](image2.jpg)
